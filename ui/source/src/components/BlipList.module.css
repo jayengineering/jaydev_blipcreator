@@ -1,0 +1,23 @@
+.row {
+  padding: 10px 12px 10px 14px;
+  border-radius: var(--mantine-radius-lg);
+  background-color: var(--surface);
+  transition: background-color 120ms ease;
+
+  &:hover {
+    background-color: var(--surface-hover);
+  }
+}
+
+.main {
+  flex: 1;
+  min-width: 0;
+}
+
+.emptyIcon {
+  width: 52px;
+  height: 52px;
+  border-radius: var(--mantine-radius-md);
+  color: #000;
+  background: var(--silver);
+}

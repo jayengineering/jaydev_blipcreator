@@ -1,0 +1,15 @@
+.icon {
+  display: block;
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  background-size: 32px 32px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.fallback {
+  display: grid;
+  place-items: center;
+  color: var(--muted);
+}
